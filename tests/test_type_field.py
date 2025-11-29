@@ -1,6 +1,6 @@
 import pytest
 
-from packet_util import TypeField
+from packetutil import TypeField
 
 # For these endian tests, all byte logic is actually handled by the struct libray.
 # Therefore, it's sufficient to ensure that Typefield is just passing the correct endian key to struct

@@ -12,7 +12,6 @@ class BytearrayField(PacketField):
             raise TypeError(f"{value} is not a bytes-like")
         if not len(value) == len(self):
             raise ValueError(f"{value} must be {len(self)} bytes long.")
-        # Yes, this is essentially a no-op, but it's a useful abstraction
         return value   
 
     def unpack(self, value):
@@ -21,7 +20,6 @@ class BytearrayField(PacketField):
             raise TypeError(f"{value} is not a bytes-like")
         if not len(value) == len(self):
             raise ValueError(f"{value} must be {len(self)} bytes long.")
-        # Yes, this is essentially a no-op, but it's a useful abstraction
         return value
 
     def __len__(self):

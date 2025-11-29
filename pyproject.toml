@@ -1,0 +1,35 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "packetutil"
+version = "0.1.0"
+description = "Utility to pack and unpack binary data into commonly used python data types."
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+authors = [
+    { name = "Joseph Martin", email = "joe@jmartintech.com" }
+]
+urls = { "Homepage" = "https://github.com/josephmartin09/packetutil" }
+
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+
+
+[tool.hatch.packages]
+# Specify which files to include in the package
+include = [
+    "README.md",
+    "LICENSE"
+]
+
+[tool.hatch.dependencies]
+dev = [
+    "pytest",
+    "hatch"
+]

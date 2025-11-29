@@ -4,7 +4,7 @@ At the moment these are pretty basic as they're only focused on uint16
 """
 import pytest
 
-from packet_util import BitField
+from packetutil import BitField
 
 @pytest.fixture
 def short_field_big():

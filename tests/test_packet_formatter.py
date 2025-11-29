@@ -1,7 +1,7 @@
 import pytest
 
-from packet_util import PacketFormatter
-from packet_util import BitField, BytearrayField, TypeField
+from packetutil import PacketFormatter
+from packetutil import BitField, BytearrayField, TypeField
 
 @pytest.fixture
 def simple_fmt():

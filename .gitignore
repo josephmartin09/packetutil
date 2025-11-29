@@ -1,6 +1,7 @@
+/Pipfile
 __pycache__
 /.cache
 /dist
-/packet_util.egg-info/
+/packetutil.egg-info/
 /build
 
