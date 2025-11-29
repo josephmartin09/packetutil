@@ -13,14 +13,8 @@
   - Bitfields with named subfields and bit lengths
 
 ## Installation
-
-This package isn't on PyPI yet, but you can build and install it locally:
-
 ```bash
-git clone https://github.com/yourusername/packetutil.git
-cd packetutil
-python3 setup.py bdist_wheel
-pip install dist/packetutil-*.whl
+pip install packetutil
 ```
 
 ## Usage

@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "packetutil"
-version = "0.1.0"
+version = "0.1.1"
 description = "Utility to pack and unpack binary data into commonly used python data types."
 readme = "README.md"
 requires-python = ">=3.7"
