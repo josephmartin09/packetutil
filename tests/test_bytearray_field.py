@@ -1,6 +1,6 @@
 import pytest
 
-from packet_util import BytearrayField
+from packetutil import BytearrayField
 
 @pytest.fixture
 def basic_field():

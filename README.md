@@ -1,6 +1,6 @@
-# packet_util
+# packetutil
 
-**`packet_util`** is a Python utility library for defining and manipulating custom binary packet structures using flexible field definitions. It makes it easy to pack Python dictionaries into bytearrays and unpack bytearrays back into structured data — with support for bitfields, bytearrays, and typed fields.
+**`packetutil`** is a Python utility library for defining and manipulating custom binary packet structures using flexible field definitions. It makes it easy to pack Python dictionaries into bytearrays and unpack bytearrays back into structured data — with support for bitfields, bytearrays, and typed fields.
 
 ## Features
 
@@ -17,16 +17,16 @@
 This package isn't on PyPI yet, but you can build and install it locally:
 
 ```bash
-git clone https://github.com/yourusername/packet_util.git
-cd packet_util
+git clone https://github.com/yourusername/packetutil.git
+cd packetutil
 python3 setup.py bdist_wheel
-pip install dist/packet_util-*.whl
+pip install dist/packetutil-*.whl
 ```
 
 ## Usage
 Define your packet structure
 ```python
-from packet_util import PacketFormatter, TypeField, BytearrayField, BitField
+from packetutil import PacketFormatter, TypeField, BytearrayField, BitField
 
 fields = {
     'type_f': TypeField('uint16', big_endian=False),
