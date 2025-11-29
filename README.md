@@ -31,6 +31,7 @@ fields = {
         'field3': 7
     })
 }
+formatter = PacketFormatter(fields)
 ```
 
 Pack data into a bytearray
