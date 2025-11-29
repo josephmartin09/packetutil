@@ -28,7 +28,7 @@ include = [
     "LICENSE"
 ]
 
-[tool.hatch.dependencies]
+[project.optional-dependencies]
 dev = [
     "pytest",
     "hatch"
